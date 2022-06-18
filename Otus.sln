@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.UnitTests", "Otus.UnitTests\Otus.UnitTests.csproj", "{CADF4114-E296-4FA3-8DA7-AC3EA3A8FCF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.Library", "Otus.Library\Otus.Library.csproj", "{7B77FBD4-ED6E-4ECA-BCC2-0A0DE9780107}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CADF4114-E296-4FA3-8DA7-AC3EA3A8FCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADF4114-E296-4FA3-8DA7-AC3EA3A8FCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADF4114-E296-4FA3-8DA7-AC3EA3A8FCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADF4114-E296-4FA3-8DA7-AC3EA3A8FCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B77FBD4-ED6E-4ECA-BCC2-0A0DE9780107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B77FBD4-ED6E-4ECA-BCC2-0A0DE9780107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B77FBD4-ED6E-4ECA-BCC2-0A0DE9780107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B77FBD4-ED6E-4ECA-BCC2-0A0DE9780107}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
