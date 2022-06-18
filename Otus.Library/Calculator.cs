@@ -38,13 +38,11 @@ public class Calculator
 
     private bool IsApproximatelyEqual(double value1, double value2, double epsilon)
     {
-        // If they are equal anyway, just return True.
         if (value1.Equals(value2))
         {
             return true;
         }
 
-        // Handle NaN, Infinity.
         if (Double.IsInfinity(value1) | Double.IsNaN(value1))
         {
             return value1.Equals(value2);
