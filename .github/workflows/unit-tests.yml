@@ -27,7 +27,7 @@ jobs:
         with:
           dotnet-version: '6.0.x'
       - name: Install dependencies
-        run: dotnet restore
+        run: dotnet restore Homework_1\Otus.sln
       - name: Build
         run: dotnet build Homework_1\Otus.sln
       - name: Unit tests results
