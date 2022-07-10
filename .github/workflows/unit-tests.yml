@@ -29,6 +29,6 @@ jobs:
       - name: Install dependencies
         run: dotnet restore
       - name: Build
-        run: dotnet build Otus.sln
+        run: dotnet build Homework_1/Otus.sln
       - name: Unit tests results
         run: dotnet test
