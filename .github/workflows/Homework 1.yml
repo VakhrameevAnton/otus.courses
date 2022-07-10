@@ -31,4 +31,4 @@ jobs:
       - name: Build
         run: dotnet build Homework_1/Otus.sln
       - name: Unit tests results
-        run: dotnet test
+        run: dotnet test Homework_1/Otus.sln
