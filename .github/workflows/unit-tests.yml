@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Homework 1
 
 # Controls when the workflow will run
 on:
@@ -27,8 +27,8 @@ jobs:
         with:
           dotnet-version: '6.0.x'
       - name: Install dependencies
-        run: dotnet restore Homework_1\Otus.sln
+        run: dotnet restore Homework_1/Otus.sln
       - name: Build
-        run: dotnet build Homework_1\Otus.sln
+        run: dotnet build Homework_1/Otus.sln
       - name: Unit tests results
         run: dotnet test
