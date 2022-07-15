@@ -1,7 +1,7 @@
 using System;
 using SpaceBattle.Logic.Interfaces;
 
-namespace SpaceBattle.Logic
+namespace SpaceBattle.Logic.Implementations
 {
     public class MovableAdapter : IMovable
     {

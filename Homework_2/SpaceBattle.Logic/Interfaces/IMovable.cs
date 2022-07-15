@@ -1,3 +1,5 @@
+using SpaceBattle.Logic.Implementations;
+
 namespace SpaceBattle.Logic.Interfaces
 {
     public interface IMovable
