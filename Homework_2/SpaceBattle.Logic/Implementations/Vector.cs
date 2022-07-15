@@ -1,4 +1,4 @@
-namespace SpaceBattle.Logic
+namespace SpaceBattle.Logic.Implementations
 {
     public class Vector
     {

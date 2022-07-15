@@ -2,11 +2,12 @@ using System;
 using Moq;
 using NUnit.Framework;
 using SpaceBattle.Logic;
+using SpaceBattle.Logic.Implementations;
 using SpaceBattle.Logic.Interfaces;
 
 namespace SpaceBattle.UnitTests
 {
-    public class SeaBattleTests
+    public class SpaceBattleMoveTests
     {
         [SetUp]
         public void Setup()
